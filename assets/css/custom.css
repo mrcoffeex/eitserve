@@ -1,0 +1,174 @@
+/* kent custom */
+
+.bg-main-yellow{
+    background-color: #ffc107!important;
+}
+
+.bg-main-dark{
+    background-color: #051922e8!important;
+}
+
+.text-main-yellow{
+    color: #ffc107!important;
+}
+
+.text-main-dark{
+    color: #051922!important;
+}
+
+.eit-text{
+    font-size: 15px;
+}
+
+.border-main-dark{
+    border: 1px solid #051922;
+}
+
+.border-main-yellow{
+    border: 1px solid #ffc107;
+}
+
+.btn-main-dark {
+  color: #fff;
+  background-color: #051922;
+  border-color: #051922;
+}
+
+.btn-main-dark:hover {
+  color: #fff;
+  background-color: #101e2c;
+  border-color: #08121a;
+}
+
+.btn-main-dark:focus, .btn-main-dark.focus {
+  color: #fff;
+  background-color: #101e2c;
+  border-color: #08121a;
+  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.btn-main-dark.disabled, .btn-main-dark:disabled {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-main-dark:not(:disabled):not(.disabled):active, .btn-main-dark:not(:disabled):not(.disabled).active,
+.show > .btn-main-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #1d2124;
+  border-color: #171a1d;
+}
+
+.btn-main-dark:not(:disabled):not(.disabled):active:focus, .btn-main-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-main-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.eit-subtitle{
+    color: #ffffff!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.border-radius-none{
+    border-radius: 0px!important;
+}
+
+.border-radius-5{
+    border-radius: 5px;
+}
+
+.border-none{
+    border: none;
+}
+
+.btn-curve {
+    padding: 7px 20px!important;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.events-img{
+    max-height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency here */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .overlay {
+    display: flex;
+}
+
+.search-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.transparent-bg{
+    background-color: #ffffff4a!important;
+}
+
+.transparent-gradient-bg{
+    background: linear-gradient(to bottom, #051922e3, #6c7477a1);
+}
+
+.fa-big {
+    font-size: 48px; /* Adjust the font size as needed */
+}
+
+.vh-30{
+    height: 30vh!important;
+}
+
+.vh-25{
+    height: 25vh!important;
+}
+
+.search-history-text{
+    font-size: 11px;
+}
+
+.item-title-text{
+    font-size: 12px;
+}
+
+.product-section-search{
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.product-image-shop img {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.product-description{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+

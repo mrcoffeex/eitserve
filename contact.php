@@ -7,39 +7,20 @@
 	
 	<?php include '_header.php' ?>
 
-	<!-- search area -->
-	<div class="search-area">
+	<div class="hero-area hero-bg-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+				<div class="col-lg-12 text-center">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<h1 class="text-uppercase">Contact us</h1>
+							<p class="eit-subtitle">Get Support 24/7.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end search arewa -->
-	
-	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="breadcrumb-text">
-						<p>Get Support</p>
-						<h1>Contact us</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end breadcrumb section -->
 
 	<!-- contact form -->
 	<div class="contact-from-section mt-150 mb-150">

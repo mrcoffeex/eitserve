@@ -1,3 +1,7 @@
+<?php  
+	$title = "About Us";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     
@@ -7,39 +11,32 @@
 	
 	<?php include '_header.php' ?>
 
-	<!-- search area -->
-	<div class="search-area">
+	<div class="hero-area hero-bg-2">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
+				<div class="col-lg-12 text-center">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<h1 class="text-uppercase">About Us</h1>
+							<p class="eit-subtitle">We offer quality products.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end search arewa -->
-	
-	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg">
+
+	<div class="product-section pt-5 pb-5 bg-main-dark">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="breadcrumb-text">
-						<p>We offer quality products</p>
-						<h1>About Us</h1>
-					</div>
+				<div class="col-lg-12">
+					<p class="eit-text text-white text-justify mb-1">
+					Welcome to <span class="text-main-yellow">eITserve Networks Philippines Corporation</span>, your trusted partner in delivering cutting-edge information technology solutions to businesses across the Philippines and beyond. Established in [Year], we have been dedicated to providing innovative IT services and products that empower organizations to thrive in the digital age.
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end breadcrumb section -->
 
 	<!-- featured section -->
 	<div class="feature-bg">
@@ -101,18 +98,41 @@
 	</div>
 	<!-- end featured section -->
 
-	<!-- shop banner -->
-	<section class="shop-banner">
-    	<div class="container">
-        	<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
-            <div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
-            <a href="shop.html" class="cart-btn btn-lg">Shop Now</a>
-        </div>
-    </section>
-	<!-- end shop banner -->
+	<div class="hero-area hero-bg-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<div class="row">
+								<div class="col-md-12">
+									<div id="myTab" role="tablist">
+										<a type="button" class="bordered-btn m-3 bordered-btn-active" id="tab1-tab" data-toggle="tab" data-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Partner Growth</a>
+										<a type="button" class="bordered-btn m-3" id="tab2-tab" data-toggle="tab" data-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Staff Empowerment Program</a>
+										<a type="button" class="bordered-btn m-3" id="tab3-tab" data-toggle="tab" data-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Extensive Industry Reach</a>
+									</div>
+									<div class="tab-content" id="myTabContent">
+										<div class="tab-pane fade m-3 show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+											<p class="text-white">While we take pride in the awards we have garnered and milestones we have achieved, the true measure of our success can be summarized in the way we transform businesses, facilitate in the availability of technologies, and drive digital transformation. With the acceleration of digital transformation, we will continue to invest in the most important imperatives to make our channel partners be more competitive, profitable and successful in the new digital economy.</p>
+										</div>
+										<div class="tab-pane fade m-3" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+											<p class="text-white">One of the key drivers of VST ECS continued growth is its people-first culture, a mindset that is well-rooted in its guiding business principle: Tool is just a technology. People make the difference. And true to our principle, VST ECS empowers its employees by providing local and international training programs, workshops, and other skill development initiatives aimed at further honing their individual skill set. VST ECS also recognizes the importance of allowing its employees pursue their varying interests and passion given that it’s one way to keep them motivated, inspired, and engaged. This leads to the creation of activities and clubs which does not only allow employees to maintain a work-life balance but also enable them to nurture shared interest which would later on translate to better teamwork, productivity, and result.</p>
+										</div>
+										<div class="tab-pane fade m-3" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+											<p class="text-white">Today, we represent more than 70 ICT brands. A relationship that we continue to nurture to serve the diverse and changing needs of retail, commercial, and enterprise markets. One of the key areas in our distribution success is the diversity of our channel partner ecosystem. We continue to forged alliances with the biggest ICT retailers, corporate channels, ISVs, born in the cloud businesses, system integrators, and service providers.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- team section -->
-	<div class="mt-150">
+	<div class="mt-150 mb-150">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
@@ -161,62 +181,6 @@
 	</div>
 	<!-- end team section -->
 
-	<!-- testimonail-section -->
-	<div class="testimonail-section mt-80 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-10 offset-lg-1 text-center">
-					<div class="testimonial-sliders">
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar1.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Saira Hakim <span>Local shop owner</span></h3>
-								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar2.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>David Niph <span>Local shop owner</span></h3>
-								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar3.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Jacob Sikim <span>Local shop owner</span></h3>
-								<p class="testimonial-body">
-									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end testimonail-section -->
-
-	<?php include '_brands.php'; ?>
 	<?php include '_footer.php'; ?>
 	<?php include '_scripts.php'; ?>
 
